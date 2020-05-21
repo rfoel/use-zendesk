@@ -12,7 +12,7 @@ npm install --save use-zendesk
 
 ## Usage
 
-Simply pass your Zendesk key to the hook and initialize it anywhere in your app, preferably in your root component.
+Simply pass your Zendesk key to the hook and initialize it anywhere in your app, preferably in your root component. All other settings from [here](https://developer.zendesk.com/embeddables/docs/widget/chat) can be passed as argument and will be forwarded to the `zESettings` object.
 
 ```jsx
 import React from 'react'
