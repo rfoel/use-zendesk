@@ -14,7 +14,9 @@ const insertScript = ({ key, onLoaded }) => {
 
 const removeScript = () => {
   const script = document.querySelector('#ze-snippet')
+  const iframe = document.querySelector('iframe[data-product="web_widget"]')
   document.body.removeChild(script)
+  if (iframe) document.body.removeChild(iframe)
   delete window.zE
   delete window.zESettings
 }
