@@ -17,7 +17,7 @@ const removeScript = () => {
   const product = document.querySelector('iframe[data-product="web_widget"]')
   const widget = document.querySelector('iframe#webWidget')
   document.body.removeChild(script)
-  if (product) document.body.removeChild(iframe)
+  if (product) document.body.removeChild(product)
   if (widget) document.body.removeChild(widget.parentNode)
   delete window.zE
   delete window.zESettings
