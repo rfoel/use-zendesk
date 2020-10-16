@@ -1,8 +1,9 @@
 # use-zendesk
 
-> React hook to initialize Zendesk widget
+React hook to initialize Zendesk widget
 
-[![NPM](https://img.shields.io/npm/v/use-zendesk.svg)](https://www.npmjs.com/package/use-zendesk) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://badge.fury.io/js/use-zendesk.svg)](https://www.npmjs.com/package/use-zendesk)
+[![GitHub license](https://img.shields.io/github/license/rfoel/use-zendesk.svg)](https://github.com/rfoel/use-zendesk/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/rfoel/use-zendesk?style=social)
 
 ## Install
 
@@ -61,8 +62,12 @@ useZendesk({ key: YOUR_ZENDESK_KEY, locale: 'pt-br' })
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | -------- |
 | `key`    | Your Zendesk key.                                                                                                                                                                    |         | `true`   |
 | `locale` | Locale of your app, can be changed after mount. Options can be found [here](https://support.zendesk.com/hc/en-us/articles/203761906-Language-codes-for-Zendesk-supported-languages). | en-us   | `false`  |
-| `onLoad` | Callback function called when the widget. loads                                                                                                                                      | null    | `false`  |
+| `onLoad` | Callback function called when the widget loads                                                                                                                                       | null    | `false`  |
+
+## Contributing
+
+Issues and pull requests are welcome.
 
 ## License
 
-MIT © [rfoel](https://github.com/rfoel)
+[MIT](https://github.com/rfoell/install-latest/blob/master/LICENSE)
