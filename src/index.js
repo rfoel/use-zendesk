@@ -13,10 +13,12 @@ const insertScript = ({ key, onLoaded }) => {
 }
 
 const removeScript = () => {
-  const elements = document.querySelectorAll(
-    '#ze-snippet, iframe[data-product="web_widget"], iframe#webWidget',
-  )
-  elements.forEach(element => document.body.removeChild(element))
+  const elements = [
+    document.querySelector('#ze-snippet'),
+    document.querySelector('iframe[data-product="web_widget"]'),
+    document.querySelector('iframe#webWidget')?.parentNode,
+  ]
+  elements.forEach(element => element?.remove())
   delete window.zE
   delete window.zESettings
 }
