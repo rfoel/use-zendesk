@@ -1,6 +1,6 @@
 {
   "name": "use-zendesk",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "React hook to initialize Zendesk widget",
   "author": "rfoel",
   "license": "MIT",
